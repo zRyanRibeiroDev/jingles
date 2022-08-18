@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 400px) {
+
+    .carousel-inner,
+    .carousel-item {
+        height: 28vh;
+
+    }
+
+    .img-fluid {
+        max-width: 110%;
+        height: auto;
+    }
+
+    .carousel-indicators {
+        margin-bottom: 0px;
+    }
+
+    .carousel-control-prev {
+        width: 45px;
+        height: 270px;
+    }
+
+    .carousel-control-next {
+        width: 45px;
+        height: 270px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+        color: rgb(0, 0, 0);
+
+
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 20px;
+        color: black;
+
+    }
+
+    .carousel2 h2 {
+        margin-top: 5px;
+        background-color: rgb(43, 27, 184);
+        text-decoration: none;
+        color: antiquewhite;
+        text-transform: uppercase;
+        width: auto;
+        font-weight: 400;
+        height: 50px;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 3x solid transparent;
+        transition: .5s;
+    }
+
+    .carousel-caption p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 25px;
+        color: black;
+    }
+
+    #carouselExampleIndicators .carousel-caption {
+        top: 2%;
+    }
+
+    .trabalhos h2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+}

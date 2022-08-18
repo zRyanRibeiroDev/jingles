@@ -1,125 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsive.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-              <a class="navbar-brand" href="#">Seu Jingle</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Início</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/teste.html">Quem Somos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Nossos Trabalhos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
-                  </li>
-                </ul>
-                
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Seu Jingle</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/teste.html">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nossos Trabalhos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="tamanhoimg">
+              <img src="images/pexels-fauxels-3184464.jpg" class="img-fluid" alt="...">
+              <div class="carousel-caption d-md-block">
+                <h2>Precisando de um Jingle para sua campanha política?</h2>
+                <p>Estamos prontos para lhe atender e criar o jingle ideal</p>
+                <a href="#" class="main-btn">Faça um orçamento</a>
               </div>
             </div>
-          </nav>
-    </header>
-    <main>
-        <div class="container-fluid">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/pexels-fauxels-3184464.jpg" class="img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h2>Precisando de um Jingle para sua campanha política?</h2>
-                      <p>Estamos prontos para lhe atender e criar o jingle ideal</p>
-                      <a href="#" class="main-btn">Faça um orçamento</a>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/111620.jpg" class="img-fluid" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                      <div class="carousel2">
-                        <h2>Eleições 2022</h2>
-                        <h2>Receba seu jingle em até 24 horas</h2>
-                      </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img src="images/pexels-pixabay-257904.jpg" class="img-fluid" alt="...">
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
-        <div class="trabalhos">
-          <h2>CONFIRA ALGUNS DE NOSSOS TRABALHOS</h2>
-
-        </div>
-        <div class="amostras">
-          <div class="row justify-content-md-center">
-            <div class="col">
-              <audio controls>
-                <source src="/audios/Amostra_jingle1.mp3" type="audio/mpeg">
-              </audio>
-            </div>
-            <div class="col">
-              <audio controls>
-                <source src="/audios/Amostra_jingle2.mp3" type="audio/mpeg">
-              </audio>
-            </div>
-            <div class="col">
-              <audio controls>
-                <source src="/audios/Amostra_jingle3.mp3" type="audio/mpeg">
-              </audio>
+          </div>
+          <div class="carousel-item">
+            <img src="images/111620.jpg" class="img-fluid" alt="...">
+            <div class="carousel-caption d-md-block">
+              <div class="carousel2">
+                <h2>Eleições 2022</h2>
+                <h2>Receba seu jingle em até 24 horas</h2>
+              </div>
             </div>
           </div>
-          <div class="row justify-content-md-center">
-            <div class="col">
-              <audio controls>
-                <source src="/audios/Amostra_jingle4.mp3" type="audio/mpeg">
-              </audio>
+          <div class="carousel-item">
+            <img src="images/pexels-pixabay-257904.jpg" class="img-fluid" alt="...">
+            <div class="carousel-caption d-md-block">
+              <div class="carousel2">
+                <h2>Nos contate pelo whatsapp</h2>
+                <h2>Receba seu jingle em até 24 horas</h2>
+              </div>
             </div>
-            <div class="col">
-              <audio controls>
-                <source src="/audios/Amostra_jingle5.mp3" type="audio/mpeg">
-              </audio>
-            </div>
-            <div class="col">
-              <audio controls>
-                <source src="/audios/Amostra_jingle6.mp3" type="audio/mpeg">
-              </audio>
-            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="trabalhos">
+      <h2>CONFIRA ALGUNS DE NOSSOS TRABALHOS</h2>
+
+    </div>
+    <div class="amostras">
+      <div class="row justify-content-md-center">
+        <div class="col d-flex justify-content-md-center">
+          <audio controls>
+            <source src="/audios/Amostra_jingle1.mp3" type="audio/mpeg">
+          </audio>
         </div>
-      
-
-    </main>
-
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+        <div class="col d-flex justify-content-md-center">
+          <audio controls>
+            <source src="/audios/Amostra_jingle2.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col d-flex justify-content-md-center">
+          <audio controls>
+            <source src="/audios/Amostra_jingle3.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col d-flex justify-content-md-center">
+          <audio controls>
+            <source src="/audios/Amostra_jingle4.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col d-flex justify-content-md-center">
+          <audio controls>
+            <source src="/audios/Amostra_jingle5.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col d-flex justify-content-md-center">
+          <audio controls>
+            <source src="/audios/Amostra_jingle6.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </div>
+    <div class="whats">
+      <a href="https://api.whatsapp.com/send?phone=5511995217604&amp;text=Oi%2C%20gostaria%20de%20fazer%20o%20orçamento%20de%20um%20jingle"
+        target="_blank">
+        <img src="/images/whatsapp.png" class="whatsapp">
+      </a>
+    </div>
+  </main>
+  
+  <footer class="mt-auto text-center text-black-50">
+    <h6>Nos contate por WhatsApp: 11 91008-0449 | E-mail: <a href="mailto:contatoseujingle@gmail.com">contatoseujingle@gmail.com</a> | Todos os direitos reservados. </h6>
+  </footer>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
